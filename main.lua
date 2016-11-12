@@ -1,4 +1,4 @@
-local f = io.open("test.circ")
+local f = io.open(assert((...),"Expected filename"), "r")
 local xml = require("xml")
 local project = xml.find(xml.load(f:read("*a")), "project")
 f:close()
