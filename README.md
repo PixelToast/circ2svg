@@ -8,4 +8,7 @@ Renders Logisim's circ format to SVG
   xml ( http://doc.lubyk.org/xml.html ) `luarocks install xml`
   
 ## Usage
-  ```lua main.lua > potato.svg```
+  `lua main.lua sample.circ > out.svg`
+
+## Limitations
+  Currently only supports wires and medium sized AND/OR gates
